@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  margin-top: 100px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 400px;
+  margin: auto auto;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 80%;
+  margin: auto auto;
+}

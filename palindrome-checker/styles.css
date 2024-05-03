@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #264653;
+  --secondary-color: #4D194D;
+}
+
+body {
+  color: var(--primary-color);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+  text-align: center;
+  max-width: 300px;
+  margin: 100px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.6em;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+#check-btn {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: .6em;
+  padding: 0.4em 1em;
+}
