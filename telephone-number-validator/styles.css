@@ -1,0 +1,90 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color:ivory;
+}
+
+body {
+  background-color: darkslategray;
+  width: 50%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.phone {
+  background-color: black;
+  height: 500px;
+  width: 250px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1.5em;
+}
+
+.camera {
+  background-color: lightgray;
+  width: 10px;
+  height: 10px;
+  margin: 10px auto 10px auto;
+  border-radius: 50%;
+}
+
+.screen {
+  height: 80%;
+  max-height: 80%;
+  background-color: white;
+  color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: 800;
+}
+
+.home-button {
+  width: 35px;
+  height: 35px;
+  border: solid gray;
+  border-radius: 50%;
+  margin: 8px auto;
+}
+
+input {
+  text-align: center;
+  border: thin solid gray;
+  height: 30px;
+  margin: auto;
+  max-width: 80%;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+}
+
+button {
+  background-color: white;
+  border:thin solid gray;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#results-div {
+  height: 50%;
+  max-height:50%;
+  overflow-y: auto;
+}
