@@ -1,0 +1,48 @@
+:root {
+  --jet: #2E2F2F;
+  --azure: #EBF4F5;
+  --powder-blue: #B5C6E0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--jet);
+  background-image: linear-gradient(to bottom right, var(--azure), var(--powder-blue));
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.main {
+  margin-bottom: 1em;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 0.6em 1em;
+}
+
+button {
+  background-color: var(--jet);
+  color: var(--azure);
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6em 1em;
+  cursor: pointer;
+}
+
+p {
+  margin: 2px;
+}
