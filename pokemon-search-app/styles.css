@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif; /* Set a clean, sans-serif font */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color for readability */
+}
+
+header {
+  background-color: #ffcb05; /* Pokémon Yellow background */
+  color: #3d7dca; /* Pokémon Blue text color */
+  text-align: center; /* Center align text */
+  padding: 20px 0; /* Vertical padding */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2em; /* Larger font size for prominence */
+}
+
+main {
+  max-width: 600px; /* Set a max-width for better layout */
+  margin: 20px auto; /* Center align and add vertical margin */
+  padding: 20px; /* Padding inside the main container */
+  background-color: #fff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+label {
+  display: block; /* Make label a block element for layout */
+  font-size: 1.1em; /* Slightly larger font size for readability */
+  margin-bottom: 10px; /* Space between label and input */
+}
+
+input[type="text"] {
+  width: 100%; /* Full width input field */
+  padding: 10px; /* Padding inside the input field */
+  border: 1px solid #ddd; /* Light border for the input */
+  border-radius: 4px; /* Rounded corners for input */
+  font-size: 1em; /* Standard font size */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+button {
+  display: block; /* Make button a block element for layout */
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding inside the button */
+  margin-top: 10px; /* Space between input and button */
+  background-color: #3d7dca; /* Pokémon Blue background */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  font-size: 1.1em; /* Slightly larger font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#pokemon-name {
+  font-size: 1.8em; /* Larger font size for prominence */
+  font-weight: bold; /* Bold font for the name */
+  color: #333; /* Dark color for readability */
+  margin: 10px 0 10px 0; /* Margin below the name */
+}
+
+#pokemon-id {
+  font-size: 1.2em; /* Smaller font size than the name */
+  color: #666; /* Lighter color for secondary information */
+  margin: 0 0 20px 0; /* Margin below the ID */
+}
+
+#weight,
+#height {
+  font-size: 1em; /* Standard font size */
+  color: #555; /* Medium color for visibility */
+  margin: 0 0 10px 0; /* Margin below each stat */
+}
+
+#stats {
+  display: grid; /* Use grid layout for stats */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Space between grid items */
+  margin-top: 20px; /* Margin above the stats */
+}
+
+#stats p {
+  padding: 10px; /* Padding inside each stat box */
+  border-radius: 5px; /* Rounded corners for stat boxes */
+  font-size: 0.9em; /* Slightly smaller font for stats */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center the text inside each box */
+}
+
+/* Special Cases: Stat Colors (Optional) */
+#hp { background-color: #ff5959; color: #fff; } /* HP: Red background, white text */
+#attack { background-color: #f5ac78; color: #fff; } /* Attack: Orange background */
+#defense { background-color: #fae078; color: #333; } /* Defense: Yellow background */
+#special-attack { background-color: #9db7f5; color: #fff; } /* Special Attack: Blue background */
+#special-defense { background-color: #a7db8d; color: #333; } /* Special Defense: Green background */
+#speed { background-color: #fa92b2; color: #fff; } /* Speed: Pink background */
+
+#types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.type {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Type Styles */
+.type.electric { background-color: #f8d030; }
+.type.fire { background-color: #f08030; }
+.type.water { background-color: #6890f0; }
+.type.grass { background-color: #78c850; }
+.type.ice { background-color: #98d8d8; }
+.type.fighting { background-color: #c03028; }
+.type.poison { background-color: #a040a0; }
+.type.ground { background-color: #e0c068; }
+.type.flying { background-color: #a890f0; }
+.type.psychic { background-color: #f85888; }
+.type.bug { background-color: #a8b820; }
+.type.rock { background-color: #b8a038; }
+.type.ghost { background-color: #705898; }
+.type.dragon { background-color: #7038f8; }
+.type.dark { background-color: #705848; }
+.type.steel { background-color: #b8b8d0; }
+.type.fairy { background-color: #f0b6bc; }
+
+/* Optional: Additional styles for hover effect */
+.type:hover {
+  opacity: 0.8;
+}
+
+img {
+  height: 150px;
+}
